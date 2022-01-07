@@ -37,7 +37,7 @@ int[] EvenNumbers(int[] array)
     return arrayB;
 }
 
-int[] array = CreateArray(10); 
-FillArray(array,-500,500); 
+int[] array = CreateArray(8); 
+FillArray(array,-1000,1000); 
 Console.WriteLine(PrintArray(array)); 
 Console.WriteLine(PrintArray(EvenNumbers(array))); 
